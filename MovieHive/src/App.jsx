@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div style={{ maxWidth: '600px', margin: 'auto' }}>
-      <h1>🎬 Movie Hive</h1>
+      <h1 class="Movie_title">🎬 Movie Hive</h1>
 
       <input
         type="text"
