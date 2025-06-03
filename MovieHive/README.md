@@ -43,7 +43,7 @@ MovieHive/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/MovieHive.git
+git clone https://github.com/eddyfranc/MovieHive.git
 cd MovieHive
 ```
 
@@ -59,7 +59,7 @@ npm install
 npm start
 ```
 
-The app will open in your browser at `http://localhost:3000`.
+The app will open in your browser at `http://localhost:5000`.
 
 ---
 
