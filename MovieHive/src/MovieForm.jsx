@@ -23,7 +23,7 @@ function MovieForm({ onAddMovie }) {
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         required
-        style={{ padding: '8px', marginRight: '10px', width: '45%' }}
+        style={{ padding: '8px', marginRight: '10px', width: '40%' }}
       />
       <input
         type="number"
@@ -47,3 +47,8 @@ function MovieForm({ onAddMovie }) {
 }
 
 export default MovieForm;
+
+
+
+
+
