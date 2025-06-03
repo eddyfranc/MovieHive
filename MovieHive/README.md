@@ -1,12 +1,70 @@
-# React + Vite
+# 🎬 MovieHive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MovieHive** is a simple and interactive React web application that allows users to view, add, search, like, and delete movies. Built using React components, it demonstrates the fundamentals of building reusable UI, state management, and user interaction in modern frontend development.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+* 🔍 **Search** movies by title
+* ➕ **Add** a new movie with title, year, and genre
+* ❤️ **Like** a movie (toggle like/unlike)
+* 🗑️ **Delete** a movie from the list
+* 🧩 Reusable **components** for movies and lists
+* 💡 Clean and readable layout using basic inline styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+* **React** (Functional components and Hooks)
+* **JavaScript (ES6)**
+* **HTML & CSS (inline styling)**
+
+---
+
+## 📁 Project Structure
+
+```
+MovieHive/
+├── public/
+├── src/
+│   ├── App.jsx           # Main component
+│   ├── MovieList.jsxx      # Component for displaying the movie list
+│   ├── Movie.js          # Component for individual movie cards
+│   ├── MovieForm.jsx      # Component for adding new movies
+└── README.md
+```
+
+---
+
+## 🖥️ How to Run the App Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/MovieHive.git
+cd MovieHive
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm start
+```
+
+The app will open in your browser at `http://localhost:3000`.
+
+---
+
+## ✨ Future Improvements
+
+* Add localStorage or backend to persist movies
+* Add rating and description fields
+* Use a movie API (like OMDb) for real data
